@@ -18,16 +18,8 @@ function appendcharacter(a){
     result1 += a;
   
     document.getElementById('result').innerText=result1;
-
-    // function cancelcharacter(){
-    //     result1 -= a;
-    //     document.getElementById('result').innerText=result1;
-    // }
 }
-// function cancelcharacter(){
-//     result1  = parseInt(result1 / 10);
-//     document.getElementById('result').innerText=result1;
-// }
+
 function calculateResult(){
     try{              //try - catch used when there is syntax error in the calculation eg ++ instead of +
      result1=eval(result1);
@@ -44,8 +36,3 @@ function clearDisplay(){
     // document.getElementById('result').style.backgroundColor = 'red'
     // document.getElementsByClassName('main')[0].style.display = 'none'
 }
-
-// function delet(){
-//     result1 -= a;
-//     document.getElementById('result').innerText=result1;
-// }
